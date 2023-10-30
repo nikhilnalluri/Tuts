@@ -1,6 +1,6 @@
-i = 1
-while i < 6:
-  print(i)
-  if (i == 3):
-    break
-  i =i + 1
+def my_function(fname):
+  print(fname + " Refsnes")
+
+my_function("Emil")
+my_function("Tobias")
+my_function("Linus")
